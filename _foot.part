@@ -1,0 +1,29 @@
+  <section class="close-band">
+    <div class="shell">
+      <span class="eyebrow">Start</span>
+      <h2>If the business might be a fit.</h2>
+      <p class="lede" style="margin-top:1.2rem;">A description of the business and its circumstances is enough to begin. The reply will be a straight answer on fit, not a process.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="mailto:contact@ovdcapital.com">contact@ovdcapital.com</a>
+      </div>
+      <p class="close-meta">Chicago, Illinois · Replies within one business day</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="shell foot-in">
+    <span>OVD Capital · Chicago</span>
+    <span>
+      <a href="__ROOT__approach.html">Approach</a> ·
+      <a href="__ROOT__investments.html">Investments</a> ·
+      <a href="__ROOT__who-we-are.html">Who We Are</a> ·
+      <a href="https://ovdadvisory.com">OVD Advisory</a>
+    </span>
+    <span>© 2026 OVD Capital LLC</span>
+  </div>
+</footer>
+
+</body>
+</html>

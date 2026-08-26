@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<!-- Draft site. Remove this line at launch so the site can be indexed. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="__ROOT__favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OVD Capital">
+<meta property="og:title" content="__TITLE__">
+<meta property="og:description" content="__DESC__">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="__CSS__css/site.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="shell topbar-in">
+    <a class="wordmark" href="__ROOT__index.html">OVD<span>&#8202;Capital</span></a>
+    <nav class="primary">
+      <a __A_APPROACH__ href="__ROOT__approach.html">Approach</a>
+      <a __A_FOUNDERS__ href="__ROOT__founders.html">For Founders</a>
+      <a __A_INVESTMENTS__ href="__ROOT__investments.html">Investments</a>
+      <a __A_WHO__ href="__ROOT__who-we-are.html">Who We Are</a>
+      <a __A_CONTACT__ href="__ROOT__contact.html">Contact</a>
+      <a class="sister" href="https://ovdadvisory.com">OVD Advisory <span aria-hidden="true">&#8599;</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">

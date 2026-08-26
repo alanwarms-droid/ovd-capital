@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "ovd-capital-site", "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m","http.server","4322","--directory","/Users/alanwarms/ovd-capital-site"], "port": 4322 }
+  ]
+}
