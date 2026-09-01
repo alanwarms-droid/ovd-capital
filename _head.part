@@ -28,6 +28,7 @@
     <a class="wordmark" href="__ROOT__index.html">OVD<span>&#8202;Capital</span></a>
     <nav class="primary">
       <a __A_APPROACH__ href="__ROOT__approach.html">Approach</a>
+      <a __A_FOCUS__ href="__ROOT__where-we-focus.html">Where We Focus</a>
       <a __A_FOUNDERS__ href="__ROOT__founders.html">For Founders</a>
       <a __A_INVESTMENTS__ href="__ROOT__investments.html">Investments</a>
       <a __A_WHO__ href="__ROOT__who-we-are.html">Who We Are</a>

@@ -1,8 +1,8 @@
   <section class="close-band">
     <div class="shell">
       <span class="eyebrow">Start</span>
-      <h2>If the business might be a fit.</h2>
-      <p class="lede" style="margin-top:1.2rem;">A description of the business and its circumstances is enough to begin. The reply will be a straight answer on fit, not a process.</p>
+      <h2>Let's have an honest conversation.</h2>
+      <p class="lede" style="margin-top:1.2rem;">No pitch deck required. Tell us about the business and we'll tell you straight whether it's a fit.</p>
       <div class="hero-actions">
         <a class="btn btn-solid" href="mailto:contact@ovdcapital.com">contact@ovdcapital.com</a>
       </div>
@@ -17,6 +17,7 @@
     <span>OVD Capital · Chicago</span>
     <span>
       <a href="__ROOT__approach.html">Approach</a> ·
+      <a href="__ROOT__where-we-focus.html">Where We Focus</a> ·
       <a href="__ROOT__investments.html">Investments</a> ·
       <a href="__ROOT__who-we-are.html">Who We Are</a> ·
       <a href="https://ovdadvisory.com">OVD Advisory</a>
