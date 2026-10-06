@@ -1080,3 +1080,19 @@ section { padding: clamp(2.8rem, 5.5vw, 4.5rem) 0; }
 }
 .ledger-col li:last-child { border-bottom: none; }
 .ledger-col li strong { color: var(--ink); font-weight: 600; }
+
+/* in-page jump link */
+.jump {
+  font-family: var(--f-display);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.jump:hover { border-bottom-color: var(--accent); }
+.jump span { font-size: 0.9em; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+:target { scroll-margin-top: 5rem; }
