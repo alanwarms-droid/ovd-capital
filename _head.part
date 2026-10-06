@@ -7,7 +7,8 @@
 <meta name="description" content="__DESC__">
 <!-- Draft site. Remove this line at launch so the site can be indexed. -->
 <meta name="robots" content="noindex, nofollow">
-<link rel="icon" href="__ROOT__favicon.svg" type="image/svg+xml">
+<link rel="icon" href="__ROOT__favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="__ROOT__img/favicon-180.png">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OVD Capital">
@@ -25,7 +26,7 @@
 
 <header class="topbar">
   <div class="shell topbar-in">
-    <a class="wordmark" href="__ROOT__index.html">OVD<span>&#8202;Capital</span></a>
+    <a class="wordmark" href="__ROOT__index.html" aria-label="OVD Capital"><img class="logo-dark" src="__ROOT__img/ovd-logo.png" alt="OVD Capital" width="485" height="170"><img class="logo-light" src="__ROOT__img/ovd-logo-light.png" alt="" aria-hidden="true" width="485" height="170"></a>
     <nav class="primary">
       <a __A_APPROACH__ href="__ROOT__approach.html">Our Approach</a>
       <a __A_FOCUS__ href="__ROOT__where-we-focus.html">Where We Focus</a>

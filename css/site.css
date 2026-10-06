@@ -125,19 +125,30 @@ a:focus-visible, button:focus-visible {
 }
 
 .wordmark {
-  font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 1.22rem;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  color: var(--ink);
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  flex: none;
 }
 
-.wordmark span {
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  color: var(--muted);
+.wordmark img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+/* Dark-mode variant swaps in; light-mode variant is hidden by default. */
+.wordmark .logo-light { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .wordmark .logo-dark { display: none; }
+  :root:not([data-theme="light"]) .wordmark .logo-light { display: block; }
+}
+:root[data-theme="dark"] .wordmark .logo-dark { display: none; }
+:root[data-theme="dark"] .wordmark .logo-light { display: block; }
+
+@media (max-width: 560px) {
+  .wordmark img { height: 36px; }
 }
 
 nav.primary {
