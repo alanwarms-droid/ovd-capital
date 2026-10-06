@@ -16,7 +16,8 @@ FOOT = (ROOT / "_foot.part").read_text()
 NAV = {
     "approach": "__A_APPROACH__", "where-we-focus": "__A_FOCUS__",
     "founders": "__A_FOUNDERS__", "investments": "__A_INVESTMENTS__",
-    "who-we-are": "__A_WHO__", "contact": "__A_CONTACT__",
+    "who-we-are": "__A_WHO__", "advisors": "__A_ADVISORS__",
+    "contact": "__A_CONTACT__",
 }
 
 def build(src: pathlib.Path) -> str:
